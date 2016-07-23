@@ -72,7 +72,7 @@ func GetFeed(db *sql.DB) {
 						continue
 					}
 					//txtFile := strings.Replace(entry.Link.Href, "-index.htm", ".txt", 1)
-					errGrab := grabxml.GrabXml(&xmlUrl, &id[1], db)
+					errGrab := GrabXml(&xmlUrl, &id[1], db)
 					if errGrab != nil {
 						//shows txt files that do not have the <XML>
 						fmt.Println(errGrab)
