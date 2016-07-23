@@ -1,4 +1,4 @@
-package mainFeed
+package main
 
 import (
 	"database/sql"
