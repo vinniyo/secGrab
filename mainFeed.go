@@ -1,4 +1,4 @@
-package mainFeed
+package secGrab
 
 import (
 	"database/sql"
